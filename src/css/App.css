@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+  background: #000;
+}
+
+._countainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  padding: 0px 15px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  background: #0f0e0e;
+}
