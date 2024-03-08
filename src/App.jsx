@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './css/App.css'
-import './css/App-nullStyle.css'
 import Header from './components/Header'
 
 export default function App() {
