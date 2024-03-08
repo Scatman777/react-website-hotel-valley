@@ -1,4 +1,4 @@
-import '/css/Header-style/Header'
+// import '/css/Header-style/Header'
 import HeaderLogo1 from '/header-img/header-logo1.svg'
 import HeaderLogo2 from '/header-img/header-logo2.svg'
 
