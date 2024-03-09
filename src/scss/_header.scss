@@ -4,40 +4,38 @@
 	left: 0;
 	top: 0;
 	z-index: 50;
-	background: #0F0E0E;
+	background: none;
   }
   
   .header__body {
 	display: flex;
 	align-items: center;
-	padding: 14px 0px;
+	padding: 24px 0px;
   }
   
   .header__logo {
 	flex: 1 1 auto;
   }
   .header__logo img {
-	width: 141px;
-	height: 20px;
+	width: 128px;
+
+	&:nth-child(1) {
+		height: 61px;
+	}
+	&:nth-child(2) {
+		height: 47px;
+	}
   }
   
   .header__list {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: 48px;
+	gap: 40px;
   }
   
   .header__item {
-	position: relative;
-	display: flex;
-	align-items: center;
-	gap: 14px;
-  }
-  .header__item a {
-	font-family: "Inter";
-	font-size: 12px;
-	font-weight: 400;
-	color: #999;
-	text-align: center;
+	a {
+		@include text-14px;
+	}
   }

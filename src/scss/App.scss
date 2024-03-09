@@ -1,5 +1,9 @@
 @use './nullstyle';
-@use './header';
+
+$colorWhite: #fff;
+
+@import './mixin';
+@import './header';
 
 html,
 body {
@@ -18,7 +22,7 @@ body {
 ._countainer {
   display: flex;
   flex-direction: column;
-  max-width: 1080px;
+  max-width: 1300px;
   padding: 0px 15px;
   box-sizing: content-box;
   margin: 0 auto;
