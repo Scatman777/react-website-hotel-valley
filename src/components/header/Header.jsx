@@ -1,5 +1,6 @@
 import HeaderLogo1 from "/header-img/header-logo1.svg";
 import HeaderLogo2 from "/header-img/header-logo2.svg";
+import HeaderBurger from "./components/header/HeaderBurger";
 
 export default function Header() {
   return (
