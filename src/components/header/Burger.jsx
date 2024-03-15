@@ -1,4 +1,4 @@
-export default function HeaderBurger() {
+export default function Burger() {
   return (
     <div id="menuToggle">
       <input type="checkbox" />

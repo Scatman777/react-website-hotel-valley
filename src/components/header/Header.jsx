@@ -1,6 +1,6 @@
 import HeaderLogo1 from "/header-img/header-logo1.svg";
 import HeaderLogo2 from "/header-img/header-logo2.svg";
-import HeaderBurger from "./components/header/HeaderBurger";
+import Burger from "./Burger";
 
 export default function Header() {
   return (
@@ -29,7 +29,7 @@ export default function Header() {
                 <a href="#">Контакты</a>
               </div>
             </ul>
-            <HeaderBurger />
+            <Burger />
           </nav>
         </div>
       </div>

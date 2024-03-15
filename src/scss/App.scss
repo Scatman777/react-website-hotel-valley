@@ -1,9 +1,7 @@
 @use './nullstyle';
+@import './mixin';
 
 $colorWhite: #fff;
-
-@import './mixin';
-@import './header';
 
 html,
 body {
@@ -27,3 +25,6 @@ body {
   box-sizing: content-box;
   margin: 0 auto;
 }
+
+@import './header';
+@import './burger';

@@ -85,6 +85,29 @@ h6 {
   font-weight: inherit;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+._countainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  padding: 0px 15px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -127,27 +150,4 @@ h6 {
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0%;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-family: sans-serif;
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  min-height: 100%;
-}
-
-._countainer {
-  display: flex;
-  flex-direction: column;
-  max-width: 1300px;
-  padding: 0px 15px;
-  box-sizing: content-box;
-  margin: 0 auto;
 }
